@@ -1,8 +1,9 @@
 * 
 {    
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #3667a6;
+
 }
 
 body 
@@ -14,13 +15,58 @@ body
 body .header 
 {
     margin: 2em 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0;
     height: 8rem;
     width: 100%;
     border-style: solid;
     border-color: rgb(228, 128, 15); 
-    border-radius: 30px;
     background-color: rgb(228, 128, 15);
 }
 
+body header .list-container 
+{
+    margin: 1rem;
+    padding: 0;
+    display: flex;
+    align-self: auto;
+    /* border-style: solid; */
+    justify-content: flex-end;
+    align-items: initial;
+    box-shadow: skyblue;
+}
 
+.list 
+{
+    margin: 1rem;
+    /* border-style: solid; */
+    padding: .5rem;
+    list-style: none;
+    background-color: rgba(226, 183, 135, 0.452);
+    align-items: initial;
+    border-radius: 3px;
+}
+
+.list:hover 
+{
+    background-color: rgb(219, 241, 94);
+    color: white ;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.main 
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    height: 1000px;
+    /* border-style: solid; */
+    background-color: tomato;
+}
+
+.hero-container
